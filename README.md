@@ -1,1 +1,14 @@
-# own-compresser-
+## Compressor Bot (For Single Users)
+
+[![Deploy](https://heroku.com/deploy?template=https://github.com/Yesawini12345/own-compresser-)
+
+### Variables
+`APP_ID` `API_HASH` `BOT_TOKEN`
+
+`OWNER` : Put Id Of Auth Users with a space between it
+
+`THUMBNAIL` : Put telegraph link of a picture for use of Thumbnail.
+
+`FFMPEG` : Put Your FFMPEG Code with "{}" as input and output. (Eg. `ffmpeg -i "{}" -preset veryfast -vcodec libx265 -crf 27 "{}"`)
+
+- [Main Source](https://github.com/Yesawini12345/own-compresser-)
