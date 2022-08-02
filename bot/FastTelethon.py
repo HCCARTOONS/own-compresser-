@@ -215,7 +215,8 @@ class ParallelTransferrer:
             index * part_size,
             part_size,
             stride,
-            part_count,)
+            part_count,
+        )
 
     async def _init_upload(
         self, connections: int, file_id: int, part_count: int, big: bool
