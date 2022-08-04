@@ -175,8 +175,8 @@ async def something():
                         progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                             progress(d, t, nnn, ttt, "uploading..")
                         ),
-                    )ds = await e.client.send_file(
-                    e.chat_id, file=ok, force_document=True, thumb=thum
+                   )ds = await e.client.send_file(
+                   e.chat_id, file=ok, force_document=True, thumb=thum
                 )
                 await nnn.delete()
                 org = int(Path(dl).stat().st_size)
