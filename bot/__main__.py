@@ -1,5 +1,5 @@
 #    This file is part of the Compressor distribution.
-#    Copyright (c) 2022 Yesawini Yuvaraj 
+#    Copyright (c) 2022 Yesawini Yuvaraj
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -174,8 +174,10 @@ async def something():
                         progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                             progress(d, t, nnn, ttt, "uploading..")
                         ),
-                   )
-                ds = await e.client.send_file(e.chat_id, file=ok, force_document=True, thumb=thum)
+                    )
+                ds = await e.client.send_file(
+                    e.chat_id, file=ok, force_document=True, thumb=thum
+                )
                 await nnn.delete()
                 org = int(Path(dl).stat().st_size)
                 com = int(Path(out).stat().st_size)
