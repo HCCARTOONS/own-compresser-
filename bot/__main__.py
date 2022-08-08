@@ -10,6 +10,8 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #    General Public License for more details.
 #
+# License can be found in
+# <https://github.com/Yesawini12345/own-compresser-/blob/main/bot/main.py#L178
 
 from . import *
 from .devtools import *
