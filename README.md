@@ -2,6 +2,9 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2F1Yesawini12345-00%2FCompressorQueue&template=https%3A%2F%2Fgithub.com%2F1Yesawini12345-00%2FCompressorQueue)
 
+[![Deploy](https://railway.app/button.svg)](https://railway.app/new/template/aX6PGA?referralCode=RKXIX8
+
+
 ### Variables
 `APP_ID` `API_HASH` `BOT_TOKEN`
 
